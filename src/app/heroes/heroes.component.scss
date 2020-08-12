@@ -1,0 +1,44 @@
+header{
+    text-align: center;
+    background-color: grey;
+    padding: 5px;
+}
+main{
+    margin: 10px;
+}
+.main-container{
+    display: flex;
+}
+.hero-list{
+    padding: 10px;
+}
+.heroes {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+  }
+  .heroes li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: black;
+    color: red;
+    margin: .5em;
+    padding: 5px;
+    height: 1.6em;
+    border-radius: 4px;
+  }
+  .heroes li:hover {
+    color: black;
+    background-color: red;
+    
+  }
+  .heroes li.selected {
+    background-color: red;
+    color: black;
+  }
+  .heroes li.selected:hover {
+    background-color: red;
+    color: black;
+  }
