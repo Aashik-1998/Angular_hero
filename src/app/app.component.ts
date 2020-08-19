@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'task';
+  // ComponentStyle :any;
+  // constructor(){
+  //   this.ComponentStyle = {
+  //     'margin':'10px',
+  //     'background-color':'blue'
+  //   };
+  // }
 }
